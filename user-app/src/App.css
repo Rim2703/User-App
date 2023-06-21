@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8758ff;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+label {
+  color: #fff;
+}
+
+.error {
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TodoForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.50rem;
+  text-align: left;
+}
+
+.Card-Wrapper {
+  background: #1a1a40;
+  color: white;
+  margin-top: 3.5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.User-Card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #303080;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.User-Card .user-info {
+  margin: 0.5rem;
+}
+
+.User-Card .user-info div:first-child {
+  font-weight: bold;
+}
+
+.User-Card .user-info div:nth-child(2) {
+  color: #ffc107;
+}
+
+.User-Card .user-info div:nth-child(3) {
+  color: #4caf50;
+}
+
+.User-Card .user-info div {
+  text-align: left;
+}
+
+.edit-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #a17dfa;
+}
+
+.dlt-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.dlt-btn:hover {
+  background: rgb(252, 43, 43);
+}
